@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/foodcart-client/static/css/main.a70c4e6c.css",
+    "main.js": "/foodcart-client/static/js/main.25a11465.js",
+    "static/js/787.cda612ba.chunk.js": "/foodcart-client/static/js/787.cda612ba.chunk.js",
+    "static/media/cover.jpeg": "/foodcart-client/static/media/cover.66439a837404e93da2e4.jpeg",
+    "index.html": "/foodcart-client/index.html",
+    "main.a70c4e6c.css.map": "/foodcart-client/static/css/main.a70c4e6c.css.map",
+    "main.25a11465.js.map": "/foodcart-client/static/js/main.25a11465.js.map",
+    "787.cda612ba.chunk.js.map": "/foodcart-client/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a70c4e6c.css",
+    "static/js/main.25a11465.js"
+  ]
+}
