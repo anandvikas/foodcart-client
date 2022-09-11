@@ -1,0 +1,32 @@
+.pgiDiv{
+    background-color: #233a3e;
+    text-align: center;
+}
+.pgiDiv>h3{
+    color: white;
+    padding: 20px;
+}
+.pgiDiv>h3>span{
+    margin: 20px;
+}
+.setPageDiv{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+
+}
+.setPageDiv>h3{
+    padding: 20px;
+    color: white;
+}
+.setPageDiv>button{
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.316);
+    cursor: pointer;
+}
+.setPageDiv>button:hover{
+    background-color: rgba(255, 255, 255, 0.679);
+}

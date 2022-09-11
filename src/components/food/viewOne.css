@@ -1,0 +1,66 @@
+.lpConBackground{    
+    margin: 50px auto;
+    max-width: 1600px;
+    height: fit-content;   
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.lpCon{
+    max-height: 80%;
+    overflow: auto;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+    width: 80%; 
+    margin: auto;   
+}
+.lpImgCon{
+    flex: 40%;
+    max-width: 300px;
+    padding: 20px;    
+}
+.lpImgCon>img{
+    width: 100%;
+}
+.lpTextCon{
+    flex: 60%;
+    padding: 20px;   
+}
+.lpTextCon>h1, .lpTextCon>h2, .lpTextCon>h3, .lpTextCon>p{
+    margin: 10px 5px;
+}
+#addToCart{
+    padding: 5px 10px;
+    border: 2px solid #001417;
+    outline: none;
+    background-color: #001417;
+    color: white;
+}
+#addToWishlist{
+    padding: 5px 10px;
+    border: 2px solid #ff4665;
+    outline: none;
+    background-color: #ff4665;
+    color: white;
+}
+#addToCart:hover{
+    background-color: white;
+    color: black;
+}
+#addToWishlist:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 700px){
+    .lpCon{
+        flex-direction: column;
+    }
+}
+
+.multilinePreview{
+    white-space: pre-line
+  }
+  
